@@ -1,0 +1,183 @@
+{
+  "grading_cases": [
+    {
+      "id": "time-canonical",
+      "question_id": "g011-q01",
+      "submitted_words": [
+        "我",
+        "明天",
+        "去",
+        "学校"
+      ],
+      "expected": "correct",
+      "script": "simplified"
+    },
+    {
+      "id": "time-fronted",
+      "question_id": "g011-q01",
+      "submitted_words": [
+        "明天",
+        "我",
+        "去",
+        "学校"
+      ],
+      "expected": "correct",
+      "script": "simplified"
+    },
+    {
+      "id": "meaning-reversed",
+      "question_id": "g028-q05",
+      "submitted_words": [
+        "因为",
+        "我",
+        "很",
+        "温柔",
+        "所以",
+        "主角",
+        "喜欢",
+        "他"
+      ],
+      "expected": "incorrect",
+      "script": "simplified"
+    },
+    {
+      "id": "missing-de",
+      "question_id": "g027-q01",
+      "submitted_words": [
+        "她",
+        "跑",
+        "很",
+        "快"
+      ],
+      "expected": "incomplete",
+      "script": "simplified"
+    },
+    {
+      "id": "wrong-de-position",
+      "question_id": "g027-q01",
+      "submitted_words": [
+        "她",
+        "得",
+        "跑",
+        "很",
+        "快"
+      ],
+      "expected": "incorrect",
+      "script": "simplified"
+    },
+    {
+      "id": "duplicate-identical-kan",
+      "question_id": "g066-q01",
+      "submitted_words": [
+        "我",
+        "想",
+        "看",
+        "看",
+        "这",
+        "本",
+        "书"
+      ],
+      "expected": "correct",
+      "script": "simplified"
+    },
+    {
+      "id": "traditional-measure",
+      "question_id": "g012-q04",
+      "submitted_words": [
+        "這",
+        "裡",
+        "有",
+        "一",
+        "隻",
+        "貓"
+      ],
+      "expected": "correct",
+      "script": "traditional"
+    },
+    {
+      "id": "simplified-measure",
+      "question_id": "g012-q04",
+      "submitted_words": [
+        "这",
+        "里",
+        "有",
+        "一",
+        "只",
+        "猫"
+      ],
+      "expected": "correct",
+      "script": "simplified"
+    },
+    {
+      "id": "potential-liao",
+      "question_id": "g043-q04",
+      "submitted_words": [
+        "你",
+        "明天",
+        "来",
+        "得",
+        "了",
+        "吗"
+      ],
+      "expected": "correct",
+      "script": "simplified"
+    },
+    {
+      "id": "extra-token",
+      "question_id": "g001-q01",
+      "submitted_words": [
+        "我",
+        "是",
+        "学生",
+        "的"
+      ],
+      "expected": "incomplete",
+      "script": "simplified"
+    }
+  ],
+  "ui_cases": [
+    {
+      "id": "insert-particle",
+      "steps": [
+        "回答に我・看・书を選ぶ",
+        "未選択の在を長押しする",
+        "我と看の間に落とす"
+      ],
+      "expected": "我在看书。ほかの語を戻す必要がない"
+    },
+    {
+      "id": "script-switch-retains-order",
+      "steps": [
+        "任意の問題を途中まで並べる",
+        "設定から字体を切替",
+        "問題へ戻る"
+      ],
+      "expected": "同じtoken IDsと順序を保持し、表記だけ変わる"
+    },
+    {
+      "id": "drag-cancel",
+      "steps": [
+        "ブロックを長押し",
+        "アプリを背景に回す",
+        "戻る"
+      ],
+      "expected": "全token IDsがどちらかの欄に1回ずつ存在し、語が消えない"
+    },
+    {
+      "id": "duplicate-token-identity",
+      "question_id": "g066-q01",
+      "steps": [
+        "二つの看のIDを入れ替える"
+      ],
+      "expected": "完成文が同じなら正解"
+    },
+    {
+      "id": "wrong-then-correct",
+      "steps": [
+        "誤答して正解を見る",
+        "同じ問題を正しく解く"
+      ],
+      "expected": "初回正解には書き換えず、復習正解として記録"
+    }
+  ]
+}

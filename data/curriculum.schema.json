@@ -1,0 +1,18 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "title":"Little Mandarin Garden Curriculum",
+ "type":"object",
+ "required":["schema_version","content_version","title","curriculum_basis","default_script","pinyin_policy","lessons"],
+ "properties":{
+  "schema_version":{"type":"string"},"content_version":{"type":"string"},"title":{"type":"string"},"curriculum_basis":{"type":"string"},"pinyin_policy":{"type":"string"},
+  "default_script":{"enum":["traditional","simplified"]},
+  "lessons":{"type":"array","items":{"$ref":"#/$defs/lesson"}}
+ },
+ "$defs":{
+  "token":{"type":"object","required":["id","simplified","traditional","pinyin","pos","meaning_ja","role_ja"],"properties":{"id":{"type":"string"},"simplified":{"type":"string","minLength":1},"traditional":{"type":"string","minLength":1},"pinyin":{"type":"string","minLength":1},"pos":{"type":"string","minLength":1},"meaning_ja":{"type":"string","minLength":1},"role_ja":{"type":"string","minLength":1}}},
+  "order":{"type":"array","items":{"type":"string"},"minItems":1},
+  "segment":{"oneOf":[{"type":"object","required":["kind","token_id"],"properties":{"kind":{"const":"token"},"token_id":{"type":"string"}}},{"type":"object","required":["kind","text","after_token"],"properties":{"kind":{"const":"punctuation"},"text":{"type":"string"},"after_token":{"type":["string","null"]}}}]},
+  "question":{"type":"object","required":["id","category","prompt_ja","sentence","tokens","segments","terminal_punctuation","canonical_order","accepted_orders","explanation_ja","answer_note_ja"],"properties":{"id":{"type":"string"},"category":{"enum":["daily","anime","gag"]},"prompt_ja":{"type":"string"},"sentence":{"type":"object","required":["simplified","traditional","pinyin"],"properties":{"simplified":{"type":"string"},"traditional":{"type":"string"},"pinyin":{"type":"string"}}},"tokens":{"type":"array","items":{"$ref":"#/$defs/token"},"minItems":1},"segments":{"type":"array","items":{"$ref":"#/$defs/segment"}},"terminal_punctuation":{"type":"string"},"canonical_order":{"$ref":"#/$defs/order"},"accepted_orders":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/order"}},"explanation_ja":{"type":"string"},"answer_note_ja":{"type":"string"}}},
+  "lesson":{"type":"object","required":["id","level","level_label","title_ja","pattern","explanation_ja","prerequisites","questions"],"properties":{"id":{"type":"string","pattern":"^g[0-9]{3}$"},"level":{"type":"integer","minimum":1,"maximum":6},"level_label":{"type":"string"},"title_ja":{"type":"string"},"pattern":{"type":"string"},"explanation_ja":{"type":"string"},"prerequisites":{"type":"array","items":{"type":"string"}},"questions":{"type":"array","minItems":10,"maxItems":10,"items":{"$ref":"#/$defs/question"}}}}
+ }
+}

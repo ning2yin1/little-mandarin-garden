@@ -1,0 +1,757 @@
+[
+  {
+    "id": "g001",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "是：〜です",
+    "pattern": "主語＋是＋名詞",
+    "explanation_ja": "人や物の正体・所属を表します。形容詞だけを述べるときには普通「是」を入れません。否定は「不是」です。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g002",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "不：習慣・意思の否定",
+    "pattern": "主語＋不＋動詞／形容詞",
+    "explanation_ja": "ふだんしないことや意思、性質を否定します。過去の出来事が起きなかった場合は普通「没」を使います。「不」は第四声の前では bú と発音します。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g003",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "有・没有：持つ／ある",
+    "pattern": "主語＋有／没有＋名詞",
+    "explanation_ja": "所有や存在を表します。「有」の否定は「没有」で、「不有」にはしません。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g004",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "吗：はい・いいえの質問",
+    "pattern": "平叙文＋吗",
+    "explanation_ja": "文末に「吗」を置いて質問にします。語順を英語のように入れ替える必要はありません。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g005",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "疑問詞：誰・何・どこ",
+    "pattern": "知りたい部分を疑問詞にする",
+    "explanation_ja": "「谁・什么・哪儿」などを、答えにあたる位置へ置きます。疑問詞がある文に普通「吗」は足しません。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g006",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "呢：相手に問い返す",
+    "pattern": "名詞／代名詞＋呢",
+    "explanation_ja": "前の話題を受けて「〜は？」とたずねます。場所を問う文脈では「〜はどこ？」にもなります。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g007",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "的：所有・修飾",
+    "pattern": "修飾する語＋的＋名詞",
+    "explanation_ja": "「私の本」「新しい服」のように、名詞の前の説明をつなぎます。親しい家族などでは「我妈妈」のように省くこともあります。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g008",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "形容詞述語・很",
+    "pattern": "主語＋很＋形容詞",
+    "explanation_ja": "中国語では形容詞がそのまま述語になります。「很」はここでは自然なつなぎとして働くこともあり、必ず強い「とても」ではありません。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g009",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "也・都：〜も／みんな",
+    "pattern": "主語＋也／都＋述語",
+    "explanation_ja": "「也」「都」は述語の前に置きます。「都」は前に出た複数の人や物がすべてそうだと表します。「也都」の順で併用できます。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g010",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "在：場所にいる／ある",
+    "pattern": "人・物＋在＋場所",
+    "explanation_ja": "「在」は存在する場所を示す動詞です。「机の上に本がある」のように物の存在を初めて紹介する文では「有」も使います。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g011",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "時間の位置",
+    "pattern": "主語＋時間＋動詞",
+    "explanation_ja": "時間は一般に動詞より前です。「明天我去学校」のように主語の前にも置けます。どちらも自然な語順です。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g012",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "数詞＋量詞",
+    "pattern": "数＋量詞＋名詞",
+    "explanation_ja": "物を数えるときは名詞に合う量詞を入れます。「个」は汎用、「本」は本、「杯」は飲み物、「只」は小動物などです。量詞の前の2は普通「两」です。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g013",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "想・要：希望と意志",
+    "pattern": "主語＋想／要＋動詞",
+    "explanation_ja": "「想」は〜したいという気持ち、「要」は欲しい・するつもりというはっきりした意志に使います。不要を伝える「不要」は文脈で禁止にもなります。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g014",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "会・能・可以",
+    "pattern": "主語＋会／能／可以＋動詞",
+    "explanation_ja": "「会」は身につけた技能、「能」は能力や状況的に可能なこと、「可以」は許可などです。日本語の「できる」を場面で使い分けます。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g015",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "和：名詞を並べる",
+    "pattern": "名詞＋和＋名詞",
+    "explanation_ja": "「和」は名詞同士を「〜と〜」とつなぎます。文と文を何でもつなぐ日本語の「そして」とは違います。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g016",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "太〜了：程度が強い",
+    "pattern": "太＋形容詞＋了",
+    "explanation_ja": "「とても〜」「〜すぎる」という強い気持ちを表します。ここの「了」は過去を示す印ではありません。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g017",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "在／正在：動作の進行",
+    "pattern": "主語＋正在＋動詞",
+    "explanation_ja": "今まさに行っている動作を表します。「在」「正在」が使え、文末に「呢」を添えることもあります。場所の「在」と区別しましょう。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g018",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "了：動作の完了",
+    "pattern": "動詞＋了＋目的語",
+    "explanation_ja": "出来事が実現したことを示します。単なる過去時制ではありません。否定は「没＋動詞」とし、完了の「了」を通常外します。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g019",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "没：まだしていない／しなかった",
+    "pattern": "主語＋没＋動詞",
+    "explanation_ja": "動作が実現していないことを表します。「不」は習慣や意思の否定です。「还没」は「まだ〜していない」です。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g020",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "文末の了：変化",
+    "pattern": "新しい状態＋了",
+    "explanation_ja": "前とは状況が変わったことを示します。「下雨了」は雨が降り始めた、「不喝了」はもう飲まないという変化です。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g021",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "过：経験",
+    "pattern": "主語＋動詞＋过＋目的語",
+    "explanation_ja": "「〜したことがある」という経験です。否定は「没＋動詞＋过」。特定の一回の完了「了」とは焦点が違います。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g022",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "是〜的：出来事の詳細",
+    "pattern": "主語＋是＋時間／場所／方法＋動詞＋的",
+    "explanation_ja": "すでに起きたことについて、いつ・どこで・どうやって、を強調します。単に「した」と言う完了の「了」と使い分けます。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g023",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "比：比較",
+    "pattern": "A＋比＋B＋形容詞",
+    "explanation_ja": "AがBよりどうなのかを表します。「比」の文では形容詞の前に通常「很」を置きません。差を「一点儿」などで足せます。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g024",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "没有：比較の否定",
+    "pattern": "A＋没有＋B＋形容詞",
+    "explanation_ja": "AはBほど〜でない、という比較です。「不比」は必ずしも劣るという意味にはならないので区別します。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g025",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "最：いちばん",
+    "pattern": "範囲＋最＋形容詞／心理動詞",
+    "explanation_ja": "ある範囲で一番であることを示します。「最喜欢」は「一番好き」です。範囲を示す部分が省かれることもあります。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g026",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "一点儿・有点儿",
+    "pattern": "形容詞＋一点儿／有点儿＋形容詞",
+    "explanation_ja": "「一点儿」は少しの量や程度の差。「有点儿」は少し〜だと状態を述べ、困った気持ちを伴うことがよくあります。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g027",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "得：動作の様子・程度",
+    "pattern": "動詞＋得＋説明",
+    "explanation_ja": "動作がどのように行われるかを後ろから説明します。目的語がある場合「他唱歌唱得很好」のように動詞を繰り返せます。「的・地」と区別します。",
+    "prerequisites": [
+      "g007",
+      "g008"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g028",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "因为〜所以〜：理由と結果",
+    "pattern": "因为＋理由，所以＋結果",
+    "explanation_ja": "「〜なので、〜です」。中国語では「因为」と「所以」を一緒に使えます。片方を省く場合もあります。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g029",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "虽然〜但是〜：逆接",
+    "pattern": "虽然＋事実，但是＋対照的な事実",
+    "explanation_ja": "「〜だけれど、〜です」。後半が前半からの予想と違うときに使います。単純な性質の並列と区別しましょう。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g030",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "就：早い・すぐ",
+    "pattern": "時間／条件＋就＋動詞",
+    "explanation_ja": "「もう・すぐ・それなら」など、予想より早いことや後続の動作を表します。ここではすぐ行う・早く行った用法を練習します。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g031",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "再・又：もう一度",
+    "pattern": "再＋動詞／又＋動詞＋了",
+    "explanation_ja": "「再」はこれからの繰り返し、「又」はすでに起きた繰り返しによく使います。「明天再来」「又迟到了」を対比します。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g032",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "离・从〜到〜",
+    "pattern": "A＋离＋B＋距離／从A到B",
+    "explanation_ja": "「离」は二地点の隔たり、「从〜到〜」は始まりと終わりを示します。距離の近い・遠いは「很近／很远」です。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g033",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "正反疑問文",
+    "pattern": "動詞＋不＋動詞／有 没 有",
+    "explanation_ja": "「行く？行かない？」と肯定・否定を並べて質問します。「有」は「有 没 有」です。「吗」は重ねません。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g034",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "还是・或者：選択",
+    "pattern": "疑問文はA还是B／平叙文はA或者B",
+    "explanation_ja": "「AそれともB？」では「还是」、「AかB」という通常の文では「或者」を使います。ここではその基本的な区別を練習します。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g035",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "别・不要：禁止",
+    "pattern": "别／不要＋動詞",
+    "explanation_ja": "「〜しないで」と伝えます。「不」と違い、相手に行動をやめてもらう表現です。文末の「了」はもうやめて、という場面にも使います。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g036",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "让・请・给：働きかけ",
+    "pattern": "让／请＋人＋動詞／给＋人＋物",
+    "explanation_ja": "「让」は人に〜させる、「请」はお願いする、「给」は人に物を与える用法です。目的語の人が後の動作をする文を見分けます。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g037",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "次数・短い動作",
+    "pattern": "動詞＋数＋次／遍／一下",
+    "explanation_ja": "「次」は回数、「遍」は最初から最後までの回数です。「一下」は少し動作する、という柔らかな頼み方にも使えます。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g038",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "还・已经：まだ／すでに",
+    "pattern": "还＋動詞・形容詞／已经＋動詞＋了",
+    "explanation_ja": "「还」はまだ続いていること、「已经」はもう実現していることです。「还没」はまだ実現していないことを表します。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g039",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "着：状態の持続",
+    "pattern": "動詞＋着",
+    "explanation_ja": "動作によってできた状態が続いていることを表します。「门开着」は開いた状態。「正在开门」は開けている途中です。",
+    "prerequisites": [
+      "g017",
+      "g020"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g040",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "地：動詞を前から修飾",
+    "pattern": "様子を表す語＋地＋動詞",
+    "explanation_ja": "「静かに話す」の「〜に」を作ります。「的」は名詞の前、「地」は動詞の前、「得」は動詞の後です。一音節の副詞などでは地を付けないこともあります。",
+    "prerequisites": [
+      "g007",
+      "g027"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g041",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "結果補語：完・好・懂・见",
+    "pattern": "動詞＋結果",
+    "explanation_ja": "動作がどういう結果になったかを表します。「看懂」は読んで理解する、「看完」は読み終える。「没看懂」は見たが理解できなかったことです。",
+    "prerequisites": [
+      "g018",
+      "g019"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g042",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "方向補語：来・去",
+    "pattern": "動詞＋方向＋来／去",
+    "explanation_ja": "「来」は話し手の側へ、「去」は離れる側へ向かう方向です。「进来」は入ってくる、「出去」は出ていく。動詞と方向を別ブロックにします。",
+    "prerequisites": [
+      "g041"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g043",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "可能補語：得／不",
+    "pattern": "動詞＋得／不＋結果・方向",
+    "explanation_ja": "条件や能力のために結果を実現できるかを表します。「看得懂」は読んで理解できる、「看不懂」は理解できない。程度補語の「得」と区別します。",
+    "prerequisites": [
+      "g041"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g044",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "把：物をどうするか",
+    "pattern": "主語＋把＋特定の物＋動詞＋結果など",
+    "explanation_ja": "相手にも分かる対象を取り上げ、それをどう処理し変化させるかを述べます。動詞だけで終えず、結果・場所などを足すのが基本です。",
+    "prerequisites": [
+      "g041"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g045",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "被：受け身",
+    "pattern": "対象＋被＋動作主＋動詞＋結果など",
+    "explanation_ja": "「〜に〜される」。動作を受ける側を主語にします。動作主を言わない「手机被偷了」もあります。日本語の受け身すべてと一対一ではありません。",
+    "prerequisites": [
+      "g018",
+      "g041"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g046",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "一边〜一边〜：同時進行",
+    "pattern": "一边＋動作1，一边＋動作2",
+    "explanation_ja": "一人が二つの動作を同時にしていると表します。順番にする動作には使いません。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g047",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "先〜再／然后〜：順序",
+    "pattern": "先＋動作1，再／然后＋動作2",
+    "explanation_ja": "先に一つの動作をして、それから次へ進む順序です。同時にする「一边〜一边〜」と区別しましょう。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g048",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "如果〜就〜：条件",
+    "pattern": "如果＋条件，就＋結果",
+    "explanation_ja": "「もし〜なら、〜」。仮定の条件とその結果を結びます。確定した理由を表す「因为」とは違います。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g049",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "越来越〜：ますます",
+    "pattern": "越来越＋形容詞／心理動詞",
+    "explanation_ja": "時間が進むにつれて程度が増すことを表します。「越来越喜欢」はますます好きになる、です。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g050",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "越〜越〜：〜ほど",
+    "pattern": "越＋動作・状態，越＋結果",
+    "explanation_ja": "片方の程度が増すほどもう片方も変わる関係です。「越来越」は時間に伴う変化、「越〜越〜」は二つの変化の関係です。",
+    "prerequisites": [
+      "g049"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g051",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "一〜就〜：するとすぐ",
+    "pattern": "一＋動作1，就＋動作2",
+    "explanation_ja": "あることが起きるとすぐ次のことが起きる、というつながりです。ここでの「一」は数の一ではありません。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g052",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "除了〜以外，还／都〜",
+    "pattern": "除了＋対象＋以外，还／都＋述語",
+    "explanation_ja": "「还」なら〜以外にも、と追加。「都」なら〜を除いてすべて、と除外です。後半によって意味が変わります。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g053",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "又〜又〜：性質を並べる",
+    "pattern": "又＋性質1＋又＋性質2",
+    "explanation_ja": "同じものの二つの性質を並べて「〜で、しかも〜」と表します。ここの「又」は過去の繰り返しとは違う用法です。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g054",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "经常・总是・一直",
+    "pattern": "主語＋頻度・継続の語＋述語",
+    "explanation_ja": "「经常」はよく、「总是」はいつも、「一直」はずっとです。繰り返しの頻度と、途切れず続く時間を区別しましょう。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g055",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "才：やっと・遅さ",
+    "pattern": "時間・条件＋才＋動詞",
+    "explanation_ja": "予想より遅い、条件を満たしてやっと、という気持ちを表します。「就」の早さと対比しましょう。少なさを表す用法もあります。",
+    "prerequisites": [
+      "g030"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g056",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "快要／要〜了：もうすぐ",
+    "pattern": "快要／要／就要＋動詞＋了",
+    "explanation_ja": "間もなく変化や出来事が起こることを表します。具体的な時点を前に置くときは「明天就要走了」のように「就要」が自然です。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g057",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "時間の長さ：時量補語",
+    "pattern": "動詞＋了＋時間",
+    "explanation_ja": "どれくらい動作をしたかを表します。目的語があると動詞を繰り返す形が使えます。「学中文学了三年」のように述べます。",
+    "prerequisites": [
+      "g018",
+      "g037"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g058",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "的时候：〜するとき",
+    "pattern": "語句＋的＋时候",
+    "explanation_ja": "ある時をひとまとまりの名詞句として表します。「我小的时候」は私が小さいころ。「的」「时候」は独立ブロックです。",
+    "prerequisites": [
+      "g007"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g059",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "以前・以后：前後",
+    "pattern": "出来事／時点＋以前／以后",
+    "explanation_ja": "「以前」はその前、「以后」はその後です。「三年以后」は三年後、「吃饭以后」は食事の後。「三年前」のような基準の違いにも注意します。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g060",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "一样・像：同じ／似ている",
+    "pattern": "A＋跟B一样＋形容詞／A＋像＋B",
+    "explanation_ja": "「一样」は同じ、「像」は似ていることを表します。「跟／和」はこの比較で両方使えます。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g061",
+    "level": 2,
+    "level_label": "HSK2目安",
+    "title_ja": "对・给・跟：関係を表す介詞",
+    "pattern": "对／给／跟＋相手＋動作など",
+    "explanation_ja": "「对」は向ける態度、「给」は〜に／〜のために、「跟」は〜と一緒に、などです。文中の働きで動詞の「给」と区別します。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g062",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "每〜都〜：どれも",
+    "pattern": "每＋量詞／時間＋都＋述語",
+    "explanation_ja": "「毎日」「どの人も」のように一つずつすべてを取り上げます。「每个」などを一語にせず分けて並べます。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g063",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "怎么・为什么・多：たずね方",
+    "pattern": "怎么＋動詞／为什么＋文／多＋形容詞",
+    "explanation_ja": "方法は「怎么」、理由は「为什么」、程度は「多＋形容詞」で質問できます。「多大」は年齢や大きさなどを文脈でたずねます。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g064",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "場所＋有：存在を紹介",
+    "pattern": "場所＋有＋人／物",
+    "explanation_ja": "場所を先に示して、そこに何があるかを紹介します。「本は机にある」は「书在桌子上」と焦点が変わります。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g065",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "几・多少・多少钱：数を聞く",
+    "pattern": "几＋量詞＋名詞／多少＋名詞",
+    "explanation_ja": "「几」は少なめの数を予想してたずね、量詞を使います。「多少」は数の大小を限定しません。「多少钱」は値段です。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g066",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "動詞の重ね型",
+    "pattern": "動詞＋動詞／動詞＋一＋動詞",
+    "explanation_ja": "少し〜する、試しに〜する、という軽い動作です。「看看」「看一看」が使えます。すべての動詞を自由に重ねられるわけではありません。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g067",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "的：名詞の代わり",
+    "pattern": "修飾する語＋的",
+    "explanation_ja": "話題から分かる名詞を省いて「赤いの」「私のもの」のように表せます。動作を説明する「地」「得」ではありません。",
+    "prerequisites": [
+      "g007"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g068",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "更・比较：より／わりと",
+    "pattern": "更／比较＋形容詞など",
+    "explanation_ja": "「更」は比較してさらに、「比较」は比較的・わりとです。「比较」は文脈によって特定の相手を明示しない緩やかな程度にもなります。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g069",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "一点儿也不／没：全く〜ない",
+    "pattern": "一点儿＋也＋不／没＋述語",
+    "explanation_ja": "少しも〜ない、と完全に否定します。性質や意思なら「不」、動作が実現しないなら「没」を選びます。",
+    "prerequisites": [
+      "g002",
+      "g019"
+    ],
+    "question_count": 10
+  },
+  {
+    "id": "g070",
+    "level": 1,
+    "level_label": "HSK1目安",
+    "title_ja": "連動文：移動と目的",
+    "pattern": "主語＋移動＋場所＋目的の動作",
+    "explanation_ja": "同じ人の関連する動作を続けて述べます。「去商店买东西」は店へ行って買い物する、です。英語のtoにあたる語を必ず足す必要はありません。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g071",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "应该・需要・必须",
+    "pattern": "主語＋应该／需要／必须＋動詞",
+    "explanation_ja": "「应该」は〜すべき、「需要」は必要がある、「必须」は必ず〜しなければならない。必要の強さや話し手の判断が違います。",
+    "prerequisites": [],
+    "question_count": 10
+  },
+  {
+    "id": "g072",
+    "level": 3,
+    "level_label": "HSK3目安",
+    "title_ja": "为了：目的",
+    "pattern": "为了＋目的，主語＋行動",
+    "explanation_ja": "「〜のために」という目的を先に示します。理由を説明する「因为」と違い、目指している結果・相手のための行動を表します。",
+    "prerequisites": [],
+    "question_count": 10
+  }
+]

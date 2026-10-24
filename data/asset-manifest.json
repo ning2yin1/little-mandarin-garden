@@ -1,0 +1,313 @@
+[
+  {
+    "path": "assets/audio/bgm-slot.json",
+    "bytes": 140
+  },
+  {
+    "path": "assets/audio/complete.wav",
+    "bytes": 30912
+  },
+  {
+    "path": "assets/audio/correct.wav",
+    "bytes": 17684
+  },
+  {
+    "path": "assets/audio/incorrect.wav",
+    "bytes": 9746
+  },
+  {
+    "path": "assets/audio/insert.wav",
+    "bytes": 4454
+  },
+  {
+    "path": "assets/audio/remove.wav",
+    "bytes": 3350
+  },
+  {
+    "path": "assets/audio/tap.wav",
+    "bytes": 3350
+  },
+  {
+    "path": "assets/backgrounds/garden-paper.png",
+    "bytes": 2307757,
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "path": "assets/backgrounds/garden-paper.webp",
+    "bytes": 164450,
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "path": "assets/characters/bear-celebrate.png",
+    "bytes": 343184,
+    "width": 640,
+    "height": 640,
+    "mode": "RGBA"
+  },
+  {
+    "path": "assets/characters/bear-encourage.png",
+    "bytes": 309723,
+    "width": 640,
+    "height": 640,
+    "mode": "RGBA"
+  },
+  {
+    "path": "assets/characters/bear-reading.png",
+    "bytes": 332376,
+    "width": 640,
+    "height": 640,
+    "mode": "RGBA"
+  },
+  {
+    "path": "assets/characters/bear-sleep.png",
+    "bytes": 330185,
+    "width": 640,
+    "height": 640,
+    "mode": "RGBA"
+  },
+  {
+    "path": "assets/characters/bear-thinking.png",
+    "bytes": 326257,
+    "width": 640,
+    "height": 640,
+    "mode": "RGBA"
+  },
+  {
+    "path": "assets/characters/bear-welcome.png",
+    "bytes": 330680,
+    "width": 640,
+    "height": 640,
+    "mode": "RGBA"
+  },
+  {
+    "path": "assets/characters/bunny.png",
+    "bytes": 350918,
+    "width": 640,
+    "height": 640,
+    "mode": "RGBA"
+  },
+  {
+    "path": "assets/characters/sparrow.png",
+    "bytes": 285009,
+    "width": 640,
+    "height": 640,
+    "mode": "RGBA"
+  },
+  {
+    "path": "assets/icons/app-180.png",
+    "bytes": 16831,
+    "width": 180,
+    "height": 180,
+    "mode": "RGB"
+  },
+  {
+    "path": "assets/icons/app-192.png",
+    "bytes": 18805,
+    "width": 192,
+    "height": 192,
+    "mode": "RGB"
+  },
+  {
+    "path": "assets/icons/app-512.png",
+    "bytes": 119953,
+    "width": 512,
+    "height": 512,
+    "mode": "RGB"
+  },
+  {
+    "path": "assets/icons/arrow.svg",
+    "bytes": 198
+  },
+  {
+    "path": "assets/icons/back.svg",
+    "bytes": 189
+  },
+  {
+    "path": "assets/icons/book.svg",
+    "bytes": 235
+  },
+  {
+    "path": "assets/icons/bookmark.svg",
+    "bytes": 195
+  },
+  {
+    "path": "assets/icons/calendar.svg",
+    "bytes": 207
+  },
+  {
+    "path": "assets/icons/check.svg",
+    "bytes": 188
+  },
+  {
+    "path": "assets/icons/chevron-down.svg",
+    "bytes": 188
+  },
+  {
+    "path": "assets/icons/close.svg",
+    "bytes": 193
+  },
+  {
+    "path": "assets/icons/correct-circle.svg",
+    "bytes": 229
+  },
+  {
+    "path": "assets/icons/download.svg",
+    "bytes": 212
+  },
+  {
+    "path": "assets/icons/filter.svg",
+    "bytes": 196
+  },
+  {
+    "path": "assets/icons/flower.svg",
+    "bytes": 278
+  },
+  {
+    "path": "assets/icons/grip.svg",
+    "bytes": 219
+  },
+  {
+    "path": "assets/icons/heart.svg",
+    "bytes": 212
+  },
+  {
+    "path": "assets/icons/helpful-heart.svg",
+    "bytes": 228
+  },
+  {
+    "path": "assets/icons/home.svg",
+    "bytes": 215
+  },
+  {
+    "path": "assets/icons/leaf.svg",
+    "bytes": 209
+  },
+  {
+    "path": "assets/icons/next.svg",
+    "bytes": 188
+  },
+  {
+    "path": "assets/icons/pause.svg",
+    "bytes": 188
+  },
+  {
+    "path": "assets/icons/play.svg",
+    "bytes": 189
+  },
+  {
+    "path": "assets/icons/reset.svg",
+    "bytes": 201
+  },
+  {
+    "path": "assets/icons/search.svg",
+    "bytes": 221
+  },
+  {
+    "path": "assets/icons/settings.svg",
+    "bytes": 281
+  },
+  {
+    "path": "assets/icons/sound-off.svg",
+    "bytes": 217
+  },
+  {
+    "path": "assets/icons/sound.svg",
+    "bytes": 229
+  },
+  {
+    "path": "assets/icons/sprout.svg",
+    "bytes": 238
+  },
+  {
+    "path": "assets/icons/star.svg",
+    "bytes": 225
+  },
+  {
+    "path": "assets/icons/upload.svg",
+    "bytes": 209
+  },
+  {
+    "path": "assets/ui/answer-slot.svg",
+    "bytes": 222
+  },
+  {
+    "path": "assets/ui/button-correct.svg",
+    "bytes": 359
+  },
+  {
+    "path": "assets/ui/button-cream.svg",
+    "bytes": 359
+  },
+  {
+    "path": "assets/ui/button-disabled.svg",
+    "bytes": 359
+  },
+  {
+    "path": "assets/ui/button-incorrect.svg",
+    "bytes": 359
+  },
+  {
+    "path": "assets/ui/button-primary.svg",
+    "bytes": 359
+  },
+  {
+    "path": "assets/ui/button-selected.svg",
+    "bytes": 359
+  },
+  {
+    "path": "assets/ui/check-pattern.svg",
+    "bytes": 324
+  },
+  {
+    "path": "assets/ui/divider.svg",
+    "bytes": 220
+  },
+  {
+    "path": "assets/ui/navigation-gingham.svg",
+    "bytes": 361
+  },
+  {
+    "path": "assets/ui/paper-panel.svg",
+    "bytes": 304
+  },
+  {
+    "path": "assets/ui/progress-fill.svg",
+    "bytes": 143
+  },
+  {
+    "path": "assets/ui/progress-track.svg",
+    "bytes": 143
+  },
+  {
+    "path": "assets/ui/title-ribbon.svg",
+    "bytes": 255
+  },
+  {
+    "path": "assets/ui/token-correct.svg",
+    "bytes": 329
+  },
+  {
+    "path": "assets/ui/token-cream.svg",
+    "bytes": 329
+  },
+  {
+    "path": "assets/ui/token-disabled.svg",
+    "bytes": 329
+  },
+  {
+    "path": "assets/ui/token-incorrect.svg",
+    "bytes": 329
+  },
+  {
+    "path": "assets/ui/token-primary.svg",
+    "bytes": 329
+  },
+  {
+    "path": "assets/ui/token-selected.svg",
+    "bytes": 329
+  }
+]

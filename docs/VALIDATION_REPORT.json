@@ -1,0 +1,21 @@
+{
+  "scope": "制作キットの構造・素材・代表採点fixtureの検証。PWA実装テストではありません。",
+  "status": "PASS",
+  "lessons": 72,
+  "questions": 720,
+  "categories": {
+    "daily": 288,
+    "anime": 216,
+    "gag": 216
+  },
+  "tokens": 3796,
+  "alternative_orders": 67,
+  "assets": 68,
+  "grading_fixtures": 10,
+  "errors": [],
+  "limitations": [
+    "母語話者による第三者校閲は未実施",
+    "アプリ本体の実装とiPhone実機テストはCodexで実施",
+    "accepted_ordersは全ての自然な語順を網羅する汎用判定器ではない"
+  ]
+}

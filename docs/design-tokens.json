@@ -1,0 +1,8 @@
+{
+  "colors": {"paper":"#fff9eb","paperDeep":"#fff0dc","ink":"#493b34","mutedInk":"#796b5c","rose":"#d94e70","roseDark":"#af3655","sage":"#81a070","sageLight":"#f0f6e8","butter":"#f1d58a","border":"#cfb98c","error":"#a64f50"},
+  "fontFamily": "-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'PingFang TC', 'PingFang SC', 'Noto Sans CJK JP', sans-serif",
+  "typography": {"screenTitle":24,"question":22,"chineseTile":23,"pinyinTile":13,"body":16,"caption":12,"lineHeight":1.65},
+  "layout": {"pagePadding":18,"gap":10,"tileMinHeight":68,"tapMin":44,"cornerRadius":16,"contentMaxWidth":480},
+  "motion": {"tapMs":100,"tileMoveMs":180,"screenMs":240,"rewardMs":500,"longPressMs":300,"dragThresholdPx":8},
+  "accessibility": {"reduceMotion":"No bouncing or large movement; retain static reward art.","pinchZoom":true,"automaticSpeech":false}
+}
